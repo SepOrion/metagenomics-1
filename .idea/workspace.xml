@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="798e880b-9545-471d-9c4b-cf85f95a3e20" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="spirito-analysis" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1W58eqzYMJjfxidhDbZeFLWlt9i" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.plot abundances">
+    <configuration name="Spirito proteomics" type="PythonConfigurationType" factoryName="Python">
+      <module name="spirito-analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/MEGPY/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proteomics.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="spirito-analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fasta_protein_filter" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="spirito-analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/MEGPY/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fasta_protein_filter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="filter_diamond_m8_percentage_positives_threshold" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="spirito-analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/MEGPY/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/filter_diamond_m8_percentage_positives_threshold.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plot abundances" type="PythonConfigurationType" factoryName="Python">
+      <module name="spirito-analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/MEGPY/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../phd-scripts" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../phd-scripts/plot_bacterial_abundances.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="presence absence with prokka" type="PythonConfigurationType" factoryName="Python">
+      <module name="spirito-analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/MEGPY/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/absence_presence_prokka.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="presence_absence" type="PythonConfigurationType" factoryName="Python">
+      <module name="spirito-analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/presence_absence_plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="presence_absence_plot_working_for_one_file" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="spirito-analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/presence_absence_plot_working_for_one_file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.presence_absence_plot_working_for_one_file" />
+      <item itemvalue="Python.presence absence with prokka" />
+      <item itemvalue="Python.Spirito proteomics" />
+      <item itemvalue="Python.plot abundances" />
+      <item itemvalue="Python.filter_diamond_m8_percentage_positives_threshold" />
+      <item itemvalue="Python.presence_absence" />
+      <item itemvalue="Python.fasta_protein_filter" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="798e880b-9545-471d-9c4b-cf85f95a3e20" name="Default Changelist" comment="" />
+      <created>1578428193395</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578428193395</updated>
+      <workItem from="1578428197344" duration="219000" />
+      <workItem from="1578480682864" duration="1426000" />
+      <workItem from="1578553751957" duration="40161000" />
+      <workItem from="1578934097862" duration="5811000" />
+      <workItem from="1578952107056" duration="18000" />
+      <workItem from="1578952198084" duration="11194000" />
+      <workItem from="1579274575268" duration="4230000" />
+      <workItem from="1579603968504" duration="992000" />
+      <workItem from="1579698700984" duration="579000" />
+      <workItem from="1579791486314" duration="7092000" />
+      <workItem from="1580121301024" duration="1442000" />
+      <workItem from="1580224143881" duration="1234000" />
+      <workItem from="1580736512383" duration="1679000" />
+      <workItem from="1580828758788" duration="2488000" />
+      <workItem from="1580990864833" duration="5527000" />
+      <workItem from="1581354855067" duration="80000" />
+      <workItem from="1581682331349" duration="5789000" />
+      <workItem from="1582035200728" duration="2489000" />
+      <workItem from="1582121497214" duration="4760000" />
+      <workItem from="1582197728164" duration="4793000" />
+      <workItem from="1582285427047" duration="7481000" />
+      <workItem from="1582716858043" duration="8399000" />
+      <workItem from="1582816346037" duration="882000" />
+      <workItem from="1582904951749" duration="1054000" />
+      <workItem from="1583160408879" duration="9731000" />
+      <workItem from="1583322392381" duration="2906000" />
+      <workItem from="1583415684354" duration="3306000" />
+      <workItem from="1583757854219" duration="4355000" />
+      <workItem from="1583931004864" duration="4566000" />
+      <workItem from="1584011974365" duration="10589000" />
+      <workItem from="1584967188676" duration="252000" />
+      <workItem from="1586423560713" duration="8015000" />
+      <workItem from="1588156268212" duration="5638000" />
+      <workItem from="1591087734113" duration="209000" />
+      <workItem from="1591346045036" duration="4585000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="279" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591611049987">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="414" y="-793" key="#com.intellij.execution.impl.EditConfigurationsDialog/-144.-1080.1920.1080/0.0.1680.1050@-144.-1080.1920.1080" timestamp="1584618059744" />
+    <state x="488" y="279" key="#com.intellij.execution.impl.EditConfigurationsDialog/-452.-1440.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1591611049987" />
+    <state x="0" y="22" width="874" height="579" key="#xdebugger.evaluate" timestamp="1582719372413">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="0" y="22" width="1680" height="969" key="#xdebugger.evaluate/-452.-1440.2560.1440/0.0.1680.1050@-452.-1440.2560.1440" timestamp="1582719372412" />
+    <state width="1154" height="206" key="GridCell.Tab.0.bottom" timestamp="1582731492005">
+      <screen x="-452" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="1680" height="919" key="GridCell.Tab.0.bottom/-452.-1417.2560.1417/0.23.1680.969@-452.-1417.2560.1417" timestamp="1582723514366" />
+    <state width="1154" height="206" key="GridCell.Tab.0.bottom/-452.-1440.2560.1440/0.0.1680.1050@-452.-1440.2560.1440" timestamp="1582731492005" />
+    <state width="1680" height="919" key="GridCell.Tab.0.bottom/-452.-1440.2560.1440/0.23.1680.969@-452.-1440.2560.1440" timestamp="1582718336931" />
+    <state width="1154" height="206" key="GridCell.Tab.0.center" timestamp="1582731492004">
+      <screen x="-452" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="1680" height="919" key="GridCell.Tab.0.center/-452.-1417.2560.1417/0.23.1680.969@-452.-1417.2560.1417" timestamp="1582723514364" />
+    <state width="1154" height="206" key="GridCell.Tab.0.center/-452.-1440.2560.1440/0.0.1680.1050@-452.-1440.2560.1440" timestamp="1582731492004" />
+    <state width="1680" height="919" key="GridCell.Tab.0.center/-452.-1440.2560.1440/0.23.1680.969@-452.-1440.2560.1440" timestamp="1582718336929" />
+    <state width="1154" height="206" key="GridCell.Tab.0.left" timestamp="1582731492003">
+      <screen x="-452" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="1680" height="919" key="GridCell.Tab.0.left/-452.-1417.2560.1417/0.23.1680.969@-452.-1417.2560.1417" timestamp="1582723514363" />
+    <state width="1154" height="206" key="GridCell.Tab.0.left/-452.-1440.2560.1440/0.0.1680.1050@-452.-1440.2560.1440" timestamp="1582731492003" />
+    <state width="1680" height="919" key="GridCell.Tab.0.left/-452.-1440.2560.1440/0.23.1680.969@-452.-1440.2560.1440" timestamp="1582718336929" />
+    <state width="1154" height="206" key="GridCell.Tab.0.right" timestamp="1582731492005">
+      <screen x="-452" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="1680" height="919" key="GridCell.Tab.0.right/-452.-1417.2560.1417/0.23.1680.969@-452.-1417.2560.1417" timestamp="1582723514365" />
+    <state width="1154" height="206" key="GridCell.Tab.0.right/-452.-1440.2560.1440/0.0.1680.1050@-452.-1440.2560.1440" timestamp="1582731492005" />
+    <state width="1680" height="919" key="GridCell.Tab.0.right/-452.-1440.2560.1440/0.23.1680.969@-452.-1440.2560.1440" timestamp="1582718336930" />
+    <state width="1680" height="919" key="GridCell.Tab.1.bottom" timestamp="1582731492000">
+      <screen x="-452" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="1680" height="919" key="GridCell.Tab.1.bottom/-452.-1417.2560.1417/0.23.1680.969@-452.-1417.2560.1417" timestamp="1582723514373" />
+    <state width="1680" height="919" key="GridCell.Tab.1.bottom/-452.-1440.2560.1440/0.0.1680.1050@-452.-1440.2560.1440" timestamp="1582731492000" />
+    <state width="1680" height="919" key="GridCell.Tab.1.bottom/-452.-1440.2560.1440/0.23.1680.969@-452.-1440.2560.1440" timestamp="1582718336863" />
+    <state width="1680" height="919" key="GridCell.Tab.1.center" timestamp="1582731491999">
+      <screen x="-452" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="1680" height="919" key="GridCell.Tab.1.center/-452.-1417.2560.1417/0.23.1680.969@-452.-1417.2560.1417" timestamp="1582723514367" />
+    <state width="1680" height="919" key="GridCell.Tab.1.center/-452.-1440.2560.1440/0.0.1680.1050@-452.-1440.2560.1440" timestamp="1582731491999" />
+    <state width="1680" height="919" key="GridCell.Tab.1.center/-452.-1440.2560.1440/0.23.1680.969@-452.-1440.2560.1440" timestamp="1582718336862" />
+    <state width="1680" height="919" key="GridCell.Tab.1.left" timestamp="1582731491998">
+      <screen x="-452" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="1680" height="919" key="GridCell.Tab.1.left/-452.-1417.2560.1417/0.23.1680.969@-452.-1417.2560.1417" timestamp="1582723514367" />
+    <state width="1680" height="919" key="GridCell.Tab.1.left/-452.-1440.2560.1440/0.0.1680.1050@-452.-1440.2560.1440" timestamp="1582731491998" />
+    <state width="1680" height="919" key="GridCell.Tab.1.left/-452.-1440.2560.1440/0.23.1680.969@-452.-1440.2560.1440" timestamp="1582718336862" />
+    <state width="1680" height="919" key="GridCell.Tab.1.right" timestamp="1582731491999">
+      <screen x="-452" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="1680" height="919" key="GridCell.Tab.1.right/-452.-1417.2560.1417/0.23.1680.969@-452.-1417.2560.1417" timestamp="1582723514368" />
+    <state width="1680" height="919" key="GridCell.Tab.1.right/-452.-1440.2560.1440/0.0.1680.1050@-452.-1440.2560.1440" timestamp="1582731491999" />
+    <state width="1680" height="919" key="GridCell.Tab.1.right/-452.-1440.2560.1440/0.23.1680.969@-452.-1440.2560.1440" timestamp="1582718336863" />
+    <state x="517" y="261" key="SettingsEditor" timestamp="1583417437998">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="517" y="261" key="SettingsEditor/-452.-1440.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1583417437998" />
+    <state width="576" height="445" key="SwitcherDM" timestamp="1582721703326">
+      <screen x="-452" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="576" height="445" key="SwitcherDM/-452.-1440.2560.1440/0.0.1680.1050@-452.-1440.2560.1440" timestamp="1582721703326" />
+    <state x="629" y="403" key="com.intellij.ide.util.TipDialog" timestamp="1591346045108">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="575" y="-651" key="com.intellij.ide.util.TipDialog/-144.-1057.1920.1057/0.23.1680.958@-144.-1057.1920.1057" timestamp="1586423560837" />
+    <state x="629" y="403" key="com.intellij.ide.util.TipDialog/-144.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1588156268592" />
+    <state x="506" y="-873" key="com.intellij.ide.util.TipDialog/-452.-1417.2560.1417/0.23.1680.969@-452.-1417.2560.1417" timestamp="1582716860822" />
+    <state x="629" y="403" key="com.intellij.ide.util.TipDialog/-452.-1440.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1584011974604" />
+    <state x="629" y="403" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1591346045108" />
+    <state x="602" y="163" key="refactoring.ChangeSignatureDialog" timestamp="1583415752202">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="602" y="163" key="refactoring.ChangeSignatureDialog/-452.-1440.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1583415752202" />
+    <state x="565" y="-832" width="766" height="696" key="search.everywhere.popup" timestamp="1584617718246">
+      <screen x="-144" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="565" y="-832" width="766" height="696" key="search.everywhere.popup/-144.-1080.1920.1080/0.0.1680.1050@-144.-1080.1920.1080" timestamp="1584617718246" />
+    <state x="493" y="-1109" width="670" height="676" key="search.everywhere.popup/-452.-1440.2560.1440/0.0.1680.1050@-452.-1440.2560.1440" timestamp="1583229575437" />
+    <state x="620" y="241" width="671" height="677" key="search.everywhere.popup/-452.-1440.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1583761765832" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../phd-scripts/presence_absence_plot_working_for_one_file.py</url>
+          <line>222</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../phd-scripts/absence_presence_prokka.py</url>
+          <line>263</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/presence_plot$presence_absence.coverage" NAME="presence_absence Coverage Results" MODIFIED="1578585584178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/presence_plot$filter_ncbi_proteins.coverage" NAME="filter_ncbi_proteins Coverage Results" MODIFIED="1579276813635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/presence_plot$presence_absence_plot_working_for_one_file.coverage" NAME="presence_absence_plot_working_for_one_file Coverage Results" MODIFIED="1580233784726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spirito_analysis$presence_absence.coverage" NAME="presence_absence Coverage Results" MODIFIED="1582720205009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spirito_analysis$presence_absence_plot_working_for_one_file.coverage" NAME="presence_absence_plot_working_for_one_file Coverage Results" MODIFIED="1582721696795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/presence_plot$presence_absence_plot.coverage" NAME="presence_absence_plot_working_for_one_file Coverage Results" MODIFIED="1578903529831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spirito_analysis$presence_absence_with_prokka.coverage" NAME="presence absence with prokka Coverage Results" MODIFIED="1582719341265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
