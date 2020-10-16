@@ -6,13 +6,13 @@ import pandas as pd
 import plotly
 import plotly.figure_factory as ff
 
-files = sorted(glob.glob("/Users/timolucas/Documents/jeon/review/out_c6/*.txt"))
+files = sorted(glob.glob("/Users/timolucas/Documents/jeon/r2_august/lps/*.txt"))
 
 lps_domains = ["LptD", "LptF_LptG", "Prenyltransf", "LpxD", "Hexapep", "Hexapep_2", "Acetyltransf_11", "LpxB",
                "Sigma70_r4", "Sigma70_r4_2", "Sigma70_ECF", "Epimerase", "CTP_transf_3", "Glyco_trans_1_4",
                "Glycos_transf_1", "LpxC", "CBS", "SIS", "Hydrolase_3", "Hydrolase", "LptD_N", "ABC_tran", "EptA_B_N",
                "Sulfatase",
-               "PagL", "Glycos_transf_N", "Glycos_transf_1", "Kdo", "Glycos_transf_N", "Glyco_transf_4",
+               "PagL", "Glycos_transf_N", "Glycos_transf_1", "Kdo", "Glyco_transf_4",
                "Glyco_transf_9"]
 
 pfam_domain_to_product_dict = {}
@@ -93,7 +93,7 @@ def get_otu_name_from_filename(file_name: str):
 gene_presence_dict = {}
 
 
-def get_results_and_plot(pfam_domain_list):
+def get_results_and_plot(pfam_domain_list,plot_path,plot_title):
     sum_genes = 0
     heatmap_text = []
     for file in files:
@@ -101,7 +101,8 @@ def get_results_and_plot(pfam_domain_list):
             otu = get_otu_name_from_filename(file)
         else:
             otu = file.split("/")[-1]
-            otu = otu.split(".faa")[0]
+            otu = otu.split(".fasta")[0]
+            otu = otu.split("_name")[1]
             # otu = otu.split("_")[1]
             # otu = otu.replace("-"," ")
         # fille dictionary with all hmmer search results in folder
@@ -132,7 +133,7 @@ def get_results_and_plot(pfam_domain_list):
         print(heatmap_text)
         sum_genes += sum(gene_presence_list)
         # skip file if gene_presence list is empty = no query hits for for otu
-        if sum(gene_presence_list) < 10:
+        if sum(gene_presence_list) < 20:
             continue
         gene_presence_dict[otu] = gene_presence_list
 
@@ -140,18 +141,38 @@ def get_results_and_plot(pfam_domain_list):
     df = pd.DataFrame.from_dict(gene_presence_dict)
     df = df.to_numpy()
 
-    fig = ff.create_annotated_heatmap(z=df, y=pfam_domain_list, x=list(gene_presence_dict.keys()))
-    # fig.add_trace(go.Heatmap(z=df, y=pfam_domain_list, x=list(gene_presence_dict.keys()),zmin=0,colorscale="blackbody"))
-    fig.update_layout(title="RBOX pfam domains C6 producing reference genomes", xaxis=dict(side='bottom'), width=500,
-                      height=1000)
 
-    plotly.offline.plot(fig, filename='/Users/timolucas/Desktop/rbox_scarborough.html', auto_open=False)
+    rbox = ["3HCDH (HBD) ", "3HCDH_N (HBD)", "Acyl-CoA_dh_1 (ACDH)", "Acyl-CoA_dh_2 (ACDH)", "Acyl-CoA_dh_M (ACDH)", "Acyl-CoA_dh_N (ACDH)", 'ECH_1 (CRT)',
+                'ECH_2 (CRT)',
+                'ETF_alpha (ETF-A)', 'ETF (ETF-B)', 'Thiolase_C (Thl C-terminal domain)', 'Thiolase_N (Thl N-terminal domain)', 'AcetylCoA_hyd_C (YDIF C-terminal domain)', 'AcetylCoA_hydro (YDIF N-terminal domain)']
+
+
+    lps = ["LptD (LPS-assembly protein)", "LptF_LptG (Lipopolysaccharide export system permease protein LptF + LptG)", "Prenyltransf (uppS)", "LpxD", "Hexapep (lpxA)", "Hexapep_2 (lpxA)", "Acetyltransf_11 (lpxA)", "LpxB",
+                       "Sigma70_r4 (ECF RNA polymerase sigma-E factor" , "Sigma70_r4_2 (ECF RNA polymerase sigma-E factor", "Sigma70_ECF (ECF RNA polymerase sigma-E factor)",
+                            "Epimerase (wbpP)", "CTP_transf_3 (kdsB)", "Glyco_trans_1_4 (Glycosyl transferase)", "Glycos_transf_1 (Glycosyl transferase)", "LpxC", "CBS (kdsD|kpsF)", "SIS (kdsD|kpsF)",
+                            "Hydrolase_3 (kdsC - 3-deoxy-manno-octulosonate-8-phosphatase activity) ", "kdsC - Hydrolase (3-deoxy-manno-octulosonate-8-phosphatase activity)", "LptD_N (Lipopolysaccharide export system protein LptA)" , "ABC_tran (Hemin import ATP-binding protein HmuV)", "EptA_B_N (eptC - Phosphoethanolamine transferase CptA)", "Sulfatase (eptC - Phosphoethanolamine transferase CptA)",
+                       "PagL (Lipid A deacylase PagL)", "Glycos_transf_N (Lipid IV(A) 3-deoxy-D-manno-octulosonic acid transferase)", "Glycos_transf_1 (Lipid IV(A) 3-deoxy-D-manno-octulosonic acid transferase)", "Kdo (Lipopolysaccharide core heptose(I) kinase RfaP)", "Glyco_transf_4 (Lipopolysaccharide core biosynthesis protein RfaG)",
+                       "Glyco_transf_9 (Lipopolysaccharide heptosyltransferase 1)"]
+
+    if pfam_domain_list == lps_domains:
+        pfam_domain_list = lps
+    if pfam_domain_list == rbox_domains:
+        pfam_domain_list = rbox
+
+    fig = ff.create_annotated_heatmap(z=df, y=pfam_domain_list, x=list(gene_presence_dict.keys()))
+
+    # fig.add_trace(go.Heatmap(z=df, y=pfam_domain_list, x=list(gene_presence_dict.keys()),zmin=0,colorscale="blackbody"))
+    fig.update_layout(title=plot_title, xaxis=dict(side='bottom'), width=2000,
+                      height=1300)
+
+    plotly.offline.plot(fig, filename=plot_path, auto_open=False)
 
     # fig.update_xaxes(side="top")
     fig.show()
 
 
-get_results_and_plot(rbox_domains)
+get_results_and_plot(lps_domains, "/Users/timolucas/Documents/jeon/r2_august/lps_r2.html","R2 August lps domains in assembly")
+
 
 #
 # ['aggrnyl', 'agsunset', 'algae', 'amp', 'armyrose', 'balance',

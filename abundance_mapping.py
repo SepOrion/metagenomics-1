@@ -75,16 +75,20 @@ def create_plot(r2c, c2t, plot_title, plot_name):
     fig.show()
 
 
-create_plot(args.r2c, args.c2t, "Abundances 2n3 ncbi", "abundances_2n3_ncbi.html")
+# create_plot(args.r2c, args.c2t, "Abundances R1 August20", "abundances_R1August20.html")
 # set plotly orca executable
 # plt.io.orca.config .executable = '/Users/timolucas/miniconda3/bin/orca'
 # create_plot("/Users/timolucas/Documents/jeon/remap_reads/2n3_reads_to_ref.txt","/Users/timolucas/Documents/jeon/remap_reads/2n3_contigs_to_gtdb.txt","Jeon sample 2n3 abundance plot using gtdb binning","2n3_gtdb.svg")
 # create_plot("/Users/timolucas/Documents/jeon/remap_reads/2n3_reads_to_ref.txt","/Users/timolucas/Documents/jeon/remap_reads/2n3_contigs_to_ncbi.txt","Jeon sample 2n3 abundance plot using ncbi binning","2n3_ncbi.png")
 
-# create_plot("/Users/timolucas/Documents/jeon/remap_reads/7n8_reads_to_ref.txt","/Users/timolucas/Documents/jeon/remap_reads/7n8_contigs_to_gtdb.txt","Jeon sample 7n8 abundance plot using gtdb binning","7n8_gtdb.png")
+# create_plot("/Users/timolucas/Documents/jeon/remap_reads/7n8_reads_to_ref.txt","/Users/timolucas/Documents/jeon/remap_reads/7n8_contigs_to_gtdb.txt","Jeon sample 7n8 abundance plot using gtdb binning","7n8_gtdb.html")
 # create_plot("/Users/timolucas/Documents/jeon/remap_reads/7n8_reads_to_ref.txt","/Users/timolucas/Documents/jeon/remap_reads/7n8_contigs_to_ncbi.txt","Jeon sample 7n8 abundance plot using ncbi binning","7n8_ncbi.png")
 
-# create_plot("/Users/timolucas/Documents/jeon/remap_reads/9_reads_to_reference_filtered.txt","/Users/timolucas/Documents/jeon/remap_reads/9_contigs_to_gtdb.txt","Jeon sample 9 abundance plot using gtdb binning","9_gtdb.png")
+# create_plot("/Users/timolucas/Documents/jeon/remap_reads/9_reads_to_reference_filtered.txt","/Users/timolucas/Documents/jeon/remap_reads/9_contigs_to_gtdb.txt","Jeon sample 9 abundance plot using gtdb binning","9_gtdb.html")
 # create_plot("/Users/timolucas/Documents/jeon/remap_reads/9_reads_to_reference_filtered.txt","/Users/timolucas/Documents/jeon/remap_reads/9_contigs_to_ncbi.txt","Jeon sample 9 abundance plot using ncbi binning","9_ncbi.png")
 
 # create_plot("/Users/timolucas/Documents/jeon/remap_reads/7n8_new_gtdb_reads_to_ref.txt","/Users/timolucas/Documents/jeon/remap_reads/7n8_new_gtdb_contigs_to_taxonomy.txt","Jeon sample 7n8 abundance plot using new gtdb mapping file","7n8_new_gtdb.html")
+
+create_plot('/Users/timolucas/Documents/jeon/r1_august/r1_august_reads_to_reference.txt','/Users/timolucas/Documents/jeon/r1_august/r1_august_contigs_to_taxonomy.txt',"Jeon sample August_R1 abundance plot using new gtdb mapping file","/Users/timolucas/Documents/jeon/r1_august/R1_august.html")
+create_plot('/Users/timolucas/Documents/jeon/r2_august/r2_august_reads_to_reference.txt','/Users/timolucas/Documents/jeon/r2_august/r2_august_contig_to_class.txt',"Jeon sample August_R2 abundance plot using new gtdb mapping file","/Users/timolucas/Documents/jeon/r2_august/R2_august.html")
+
